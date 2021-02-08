@@ -5,15 +5,6 @@ Show them when they receive the class 'on'
 Hide them when they receive the class 'off'
 Feel free to adjust the defaults to your needs.
 ********************************************** */
-
-div.fixed {
-	position: fixed;
-	bottom: 0;
-	right: 300px;
-	width: 300px;
-	border: 3px solid #73AD21;
-  }
-
 #closed-captions p {
 	opacity: 0;
 	transition: .05s;
@@ -121,6 +112,4 @@ iframe {
 }
 /* The moment the class .sound1 is added to the body, the movie makes a turn */
 .sound1 iframe {
-	transform: rotateX(360deg)
-
-
+	transform: rotate(1turn);
