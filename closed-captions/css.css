@@ -6,6 +6,10 @@ Hide them when they receive the class 'off'
 Feel free to adjust the defaults to your needs.
 ********************************************** */
 
+#video-placeholder
+
+
+
 div.fixed {
 	position: fixed;
 	bottom: 0;
@@ -27,8 +31,34 @@ div.fixed {
 	opacity: 0;
 }
 .voice1 {
-	font-style: italic;
+	font-family: brenner slab;
+	font-style: normal;
+	font-weight: 400;
+	color:coral;
 }
+.voice2 {
+	font-family: brenner mono;
+	font-style: normal;
+	font-weight: 600;
+	color: dodgerblue;
+}
+.voice3 {
+	font-family: brenner sans;
+	font-style: italic;
+	font-weight: 400;
+	font-weight: lighter;
+	font-size: large;
+	transition: ease-in-out;
+	transition-duration: 1,5s;
+	color: red;
+}
+.voice4 {
+	font-family: brenner mono;
+	font-style: normal;
+	font-weight: 600;
+	color:darkgreen;
+}
+
 
 /* **********************************************
 The first paragraph, with extended timing for 
@@ -39,70 +69,90 @@ The first paragraph, with extended timing for
 You probably want to change the styling.
 ********************************************** */
 .p0 span {
-	opacity: 0;
-	font-family: brenner;
+	opacity: 1;
+	font-family: brenner slab;
 }
 .p0.on span:first-of-type {
 	opacity: 1;
 	transition: 0s;
-	font-weight: 200;
+	font-weight: 400;
+	font-family: "brenner slab";
 }
 .p0.on span:nth-of-type(2) {
 	opacity: 1;
 	transition: 0s .4s;
 	margin-right: -.25em;
 	font-weight: 400;
+	font-family: "brenner slab";
 }
 .p0.on span:nth-of-type(3) {
 	opacity: 1;
 	transition: 0s .5s;
 	margin-right: -.25em;
-	font-weight: 600;
+	font-weight: 400;
+	font-family: "brenner slab";
 }
 .p0.on span:nth-of-type(4) {
 	opacity: 1;
 	transition: 0s .7s;
 	margin-right: -.25em;
-	font-weight: 800;
+	font-weight: 400;
+	font-family: "brenner slab";
 }
 .p0.on span:nth-of-type(5) {
 	opacity: 1;
 	transition: 0s 1.1s;
 	margin-right: -.25em;
-	font-family: "brenner sans";
+	font-family: "brenner slab";
 }
 .p0.on span:nth-of-type(6) {
 	opacity: 1;
 	transition: 0s 1.4s;
 	margin-right: -.25em;
-	font-family: "brenner display";
+	font-family: "brenner slab";
 }
 .p0.on span:nth-of-type(7) {
 	opacity: 1;
 	transition: 0s 1.7s;
 	margin-right: -.25em;
-	font-family: "brenner script";
+	font-family: "brenner slab";
 }
 .p0.on span:nth-of-type(8) {
 	opacity: 1;
 	transition: 0s 2s;
-	font-family: "brenner script";
+	font-family: "brenner slab";
 }
 .p0.on span:nth-of-type(9) {
 	opacity: 1;
 	transition: 0s 3s;
-	font-family: "brenner Sans condensed";
+	font-family: "brenner slab";
 }
 .p0.on span:nth-of-type(10) {
 	opacity: 1;
 	transition: 0s 3.2s;
-	font-family: "brenner mono";
+	font-family: "brenner slab";
 }
 .p0.on span:nth-of-type(11) {
 	opacity: 1;
 	transition: 0s 3.7s;
 	font-family: "brenner slab";
 }
+
+.p1.on span {
+	opacity: 1;
+	font-family: brenner mono;
+}
+
+.p42{
+transition: 0,5s;
+}
+
+.p42 span {
+	font-family: brenner mono;
+	font-style: italic;
+	font-weight: 100;
+}
+
 
 /* **********************************************
 Sounds.
@@ -115,6 +165,9 @@ Sounds.
 .sound1 {
 	background: red;
 }
+.sound2 {
+	background: none;
+}
 
 iframe {
 	transition: 1s;
@@ -122,5 +175,5 @@ iframe {
 /* The moment the class .sound1 is added to the body, the movie makes a turn */
 .sound1 iframe {
 	transform: rotateX(360deg)
-
+}
 
