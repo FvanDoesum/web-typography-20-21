@@ -6,9 +6,11 @@ Hide them when they receive the class 'off'
 Feel free to adjust the defaults to your needs.
 ********************************************** */
 
-#video-placeholder
-
-
+#video-placeholder{
+	position: absolute;
+	top: 100px;
+	left: 200px;
+}
 
 div.fixed {
 	position: fixed;
@@ -22,6 +24,9 @@ div.fixed {
 	opacity: 0;
 	transition: .05s;
 	position: absolute;
+	top: 350px;
+	left: 250px;
+	right: 200px;
 }
 #closed-captions .on {
 	opacity: 1;
@@ -33,30 +38,38 @@ div.fixed {
 .voice1 {
 	font-family: brenner slab;
 	font-style: normal;
-	font-weight: 400;
-	color:coral;
+	font-weight: 300;
+	color: darkorange;
+	text-align: right;
+	text-shadow: black 0.1em 0.1em 0.1em
 }
 .voice2 {
-	font-family: brenner mono;
+	font-family: brenner sans;
 	font-style: normal;
-	font-weight: 600;
+	font-weight: 400;
+	font-size: 20px;
 	color: dodgerblue;
+	text-align: left;
+	text-shadow: black 0.1em 0.0em 0.1em
 }
 .voice3 {
-	font-family: brenner sans;
+	font-family: brenner mono;
 	font-style: italic;
 	font-weight: 400;
+	font-size: 13px;
 	font-weight: lighter;
-	font-size: large;
-	transition: ease-in-out;
-	transition-duration: 1,5s;
+	transition: ease-in;
+	transition-duration: 0,5s;
 	color: red;
+	text-shadow: black 0.1em 0.1em 0.1em;
 }
 .voice4 {
 	font-family: brenner mono;
 	font-style: normal;
 	font-weight: 600;
 	color:darkgreen;
+	text-align: right;
+	text-shadow: black 0.1em 0.1em 0.1em
 }
 
 
@@ -140,17 +153,13 @@ You probably want to change the styling.
 
 .p1.on span {
 	opacity: 1;
-	font-family: brenner mono;
-}
-
-.p42{
-transition: 0,5s;
+	font-family: brenner sans;
 }
 
 .p42 span {
-	font-family: brenner mono;
+	font-family: brenner sans;
 	font-style: italic;
-	font-weight: 100;
+	font-weight: 400;
 }
 
 
@@ -162,9 +171,11 @@ Sounds.
 *********************************************  */
 
 /* The moment the class .sound1 is added to the body, the background is yellow */
+
 .sound1 {
 	background: red;
 }
+
 .sound2 {
 	background: none;
 }
