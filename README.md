@@ -1,83 +1,56 @@
-# Web Typography, 2020/2021
+README Fien van Doesum
 
-Als je doof bent, of als je om een andere reden geen geluid kunt horen, dan mis je veel informatie als je een film kijkt. Knisperende voetstappen, langzaam aanzwellende muziek, nerveus getik op een deur, je hoort het natuurlijk allemaal niet. Nu bestaat er zoiets als *closed caption*, wat een type ondertiteling is waarbij ook dingen als omgevingsgeluiden en de muziek beschreven worden. Hierdoor krijgt een kijker die informatie wel binnen.
+### Ontwerpkeuzes typpografie
 
-Alleen wordt die auditieve informatie nogal neutraal beschreven. Het geluid van huilend persoon zou bijvoorbeeld beschreven kunnen worden als *snikgeluid op de achtergrond*. En iemand die lacht zou geschreven kunnen worden als *iemand lacht.* Heel neutraal, bijna zakelijk, en bovendien allebei in precies hetzelfde neutrale lettertype. Terwijl het toch echt over twee heel verschillende emoties gaat. 
+# Optie 2: Brenner
 
-Dat kan visueel sterker. 
+Ik heb voor optie 2 gekozen doordat ik de zekerheid wilde weten dat het overal klopt op elk en ieder scherm. Ook kon ik op deze manier spelen met de stylen per woord of letter. Ook heb ik elke soort een schaduw gegeven. Darice gaf aan dat dit fijner leest. Dit zie je niet meer terug doordat ik na de feedback van Vasilis heb besloten het in de zwarte balk van de video te zetten. Hierdoor heb ik geen problemen meer met de leesbaarheid van de teksten. Lees de verantwoording hieronder verder per categorie:
 
-En dat gaan jullie doen.
+Voice 1 (Ondervrager)
+    
+font-family: brenner slab
+De computer/ondervrager heeft een toepasselijk font gekregen door de snerpende en hoekige stem. Deze is ook wat groter en dunner dan de rest door de intensiteit van de vragen die hij stelt. 
 
-## Leerdoelen
 
-- Je kan de kennis over vormgeving die je hebt opgedaan tijdens de minor technisch toepassen met behulp van CSS
-- Je kan verborgen nuance uit een audiotrack overtuigend vertalen naar visuele (typografische) beelden
-- Je kan je typografische keuzes onderbouwen.
-- Je hebt de exclusive design principles gebruikt.
+Voice 2 (K)
+  
+font-family: brenner sans
+K heeft één van de meest neutrale fonts gekregen doordat hij in dit fragment erg onbewogen praat. Daarom heeft dit font ook een gedempte blauwe kleur. 
 
-## Oplevering
 
-Je levert een werkende versie op, gemaakt met HTML, CSS en JavaScript. Deze staat op Github. In een duidelijke readme documenteer en onderbouw je je ontwerpkeuzes. Je developmentgeschiedenis is terug te vinden op GitHub.
+Voice 3 (Boze man)
+  
+font-family: brenner mono
+Deze man komt 1 keer in de hele film voor. Het is een geniepige man die even snel iets lelijks zegt tegen K tijdens het voorbijlopen. Daarom is dit een wat kleiner en dunner font welke cursief geschreven is. Het heeft de kleur rood gekregen door de associatie hiermee (rood van woede) zodat Darice de toon goed herkent. 
+	
 
-Je levert ook een *screen recording* met audio op van je fragment. Dit is een video van de definitieve versie, gemaakt van jouw browserscherm.
+Voice 4 (Baas)
 
-De beoordeling is mondeling en volgt [de rubric uit het beoordelingsformulier](web-typografie-beoordeling.pdf).
+font-family: brenner mono
+Deze is gekozen doordat dit een strakke, menselijke en simpele variant is van de Brennerfonts. Het is een iets dikkere font met een donkergroene kleur door de lage en mannelijke stem van de man. 
 
-## Typografische restricties
 
-Je *moet* een van deze twee opties kiezen, en je keuze moet je onderbouwen. In je readme staat een uitleg over je overwegingen om de ene of de andere restrictie te kiezen.
+Aanduidingen geluiden
 
-### Optie 1: Systeemfont
+Font-family: brenner
+Dit is zodat darice het makkelijk weet te herkennen wanneer er een nieuw geluid is. Het is cursief zodat dit nog wat meer opvalt. De grootte is gelijk aan die van K zodat dit verder in de film gelijk aan elkaar blijft. Dit zijn de twee stylen die het vaakst zullen terugkomen in de hele film. Het is de kleur wit zodat het neutraal blijft de gehele video door. 
 
-De eerste optie is dat je gebruik maakt van het zogenaamde *systeemfont* van degene die naar jouw werk kijkt. Dit font verschilt per operating system, en het verschilt soms zelfs per versie van het operating system. Het is ook aan te passen door de gebruiker zelf. 
 
-Je hebt dus geen controle over welk lettertype er precies gebruikt wordt. Het levert dus een onzeker, en beperkt typografisch palet op. Je hebt geen *light* versies, of *extrabold*. En ook geen serif en sans-serif versie van dezelfde familie. In dit geval heb je alleen de beschikking over normal, **bold** en _italic_. Dit heeft natuurlijk ook zijn voordelen!
+### Ontwerpkeuzes aanduidngen geluiden
 
-### Optie 2: Brenner
+Darice gaf aan dat de aanduidingen van de geluiden er 100% in moesten zitten. Anders snapte ze er niets van. Daarom heb ik geprobeerd de geluiden zo specifiek mogelijk te beschrijven. Ik heb deze ook besproken in mijn groepje zodat ik meer meningen kon meenemen. Ook staan deze teksten iets naar beneden zodat het wederom makkelijk te herkennen is voor Darice. Ze gaf aan tijdens een feedbacksessie dat ze het fijner vond om niet te hoeven zoeken naar de ondertiteling.
 
-Je kan er ook voor kiezen om gebruik te maken van de complete Brenner familie. Dit is een zeer uitgebreid en uiterst flexibel font. [Hier kan je je verdiepen in dit font](https://www.typotheque.com/blog/brenner_an_unusual_typeface_family_with_distinct_voices). Als je kiest voor dit font dan heb je de beschikking over een *sans serif*, een *condensed*, een *serif*, een *monotype*, een *slab*, een *display* en een *script* versie. En veel van deze versies hebben varianten van *light* tot *bold*, en allemaal zowel *bold* als *italic*.
 
-Met Brenner zijn er natuurlijk veel en veel meer mogelijkheden dan met systeemfonts. Dat kan zowel een voordeel als een nadeel zijn. 
+### Ontwerpkeuzes bewegingen beeld
 
-Voor een overzicht, zie [de brenner.pdf](brenner.pdf).
+Doordat mijn groepje en ik hadden afgesproken om te focussen op ieder een ander onderdeel, konden we veel uit het laatste gesprek met Darice halen. Delano ging over de bewegingen van het beeld. Hier had hij zo veel mogelijk verschillende effecten ingestopt. Echter gaf Darice aan dat dit wel heel veel was en meer afleidend. Hierdoor ben ik toch gegaan voor minimalistische bewegingen zodat het meer is afgesteld op Darice. Verder wilde ik de video tijdens het laatste snerpende geluid steeds groter laten worden. Na 100 pogingen is het alsog niet gelukt. Achteraf zoomt de film zelf ook al in en was dit dubbel geweest. Dus misschien is het juist wel goed zo.
 
-## Het fragment
 
-Ik heb een fragment voorbereid. Het gaat om twee scenes uit *Blade Runner 2049*. De captions staan in de HTML, en ze verschijnen in sync met de video. [Kijk maar](closed-captions/index.html).
+### Ontwerpkeuzes achtergrondkleuren
 
-### De captions
+Bij elk alarmerend geluid komt er een rode kleur als achtergrond. Dit is om gevaar en paniek aan te duiden. Op het moment dat het snerpende geluid begint komt er een knipperende gifgroen/zwarte achtergrond. Het is een irritant geluid waar ook een irritante kleur bij hoort. zodra zit geluid stopt is er een volledig witte achtergrond. Eindelijk verlossing, rust, stilte... 
 
-De captions staan in de html, in het bestand index.html. Je kan aan elke paragraaf eventueel een of meer classes toevoegen. Bijvoorbeeld `voice1` of `voice2 soft`. Classes voeg je handmatig toe in de html.
 
-Met JavaScript worden er een paar dingen extra gedaan: 
+### Overige ontwerpkeuzes
 
-- er wordt aan elke paragraaf een unieke class toegevoegd (`p0`, `p1`, etc)
-- Elk woord wordt in een aparte `span` gezet. Hierdoor kan je elk woord apart stylen, en eventueel ook [na elkaar laten verschijnen](https://github.com/cmda-minor-vid/web-typography-18-19/blob/master/closed-captions/css.css#L41).
-
-### Tijdens het afspelen
-
-Tijdens het afspeelen wordt er een class `on` op de caption gezet als hij moet verschijnen, en een class `off` als hij klaar is. *Zowel class `on` als class `off` blijft op de caption staan!*
-
-De timimg van de captions kan je aanpassen in [closed-captions/captions.js](closed-captions/captions.js).
-
-Er verschijnen ook classes op de body op momenten dat er geluiden worden afgespeeld, zoals `sound1` en `sound2`. Je kan geluiden toevoegen in [closed-captions/sounds.js](closed-captions/sounds.js).
-
-*let op,* de geluiden zijn niet compleet, dit zal je zelf moeten aanvullen.
-
-## Een eigen fragment (afgeraden, uitgebreide onderbouwing is nodig)
-
-Je kan er ook voor kiezen om een eigen, *beter* fragment te gebruiken. Dit wordt afgeraden. De tijd die je besteedt aan het zoeken naar dat fragment kan je beter besteden aan het werken aan de opdracht. Bovendien blijkt dat er vaak fragmenten worden gekozen die niet goed voldoen aan de opdracht. Als je een ander fragment kiest dan *moet* je dit goed onderbouwd voorleggen aan je docent. De deadline hiervoor is vrijdagochtend in de eerste week.
-
-### Waar moet je op letten bij het kiezen van een eigen fragment.
-Lees de opdracht nog eens goed door. Waar gaat het ook al weer precies om? 
-
-Voor een goede onderbouwing van je keuze voor een ander fragment moet je deze vragen in elk geval beantwoorden:
-
-- Welke informatie zit er in de audio die echt niet zichtbaar is?
-- Welke rol speelt de audio in het fragment?
-- Werkt de scene nog zonder geluid?
-- Waarom is dit fragment beter dan het aangeboden fragment?
-
-Je kan dan de nodige HTML en JavaScript genereren door gebruik te maken van [caption generator](https://cmda-minor-vid.github.io/web-typography-18-19/generator/) (in Google Chrome). 
-
-Als je de closed captions wil bewerken dan kan je een tool zoals [Amber Script](https://www.amberscript.com/en) gebruiken. Daar kan je exporteren als `.srt`, en die kan je weer door de generator halen.
+De positie van de video is in het midden zodat het rustiger kijkt.
