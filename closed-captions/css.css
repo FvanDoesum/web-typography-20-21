@@ -1,10 +1,10 @@
-/* **********************************************
+/************************************************
 Basic mechanics
 Hide all paragraphs by default
 Show them when they receive the class 'on'
 Hide them when they receive the class 'off'
 Feel free to adjust the defaults to your needs.
-********************************************** */
+************************************************/
 
 #video-placeholder{
 	position: absolute;
@@ -17,14 +17,14 @@ div.fixed {
 	bottom: 0;
 	right: 300px;
 	width: 300px;
-	border: 3px solid #73AD21;
+	border: 3px solid #ffffff;
   }
 
 #closed-captions p {
 	opacity: 0;
 	transition: .05s;
 	position: absolute;
-	top: 350px;
+	top: 435px;
 	left: 250px;
 	right: 200px;
 }
@@ -35,22 +35,28 @@ div.fixed {
 	transition: .2s;
 	opacity: 0;
 }
+
+/***********************************************
+Typografie alles.
+*************************************************/
+
 .voice1 {
 	font-family: brenner slab;
 	font-style: normal;
 	font-weight: 300;
-	color: rgb(253, 13, 201);
-	text-align: right;
-	text-shadow: black 0.1em 0.1em 0.1em
+	color: rgb(221, 210, 219);
+	text-align: center;
+	text-shadow: black 0.1em 0.1em 0.1em;
+	
 }
 .voice2 {
 	font-family: brenner sans;
 	font-style: normal;
 	font-weight: 400;
-	font-size: 20px;
-	color: rgb(43, 188, 255);
-	text-align: left;
-	text-shadow: black 0.1em 0.0em 0.1em
+	font-size: 15px;
+	color: rgb(101, 180, 216);
+	text-align: center;
+	text-shadow: black 0.1em 0.0em 0.1em;
 }
 .voice3 {
 	font-family: brenner mono;
@@ -61,6 +67,7 @@ div.fixed {
 	transition: ease-in;
 	transition-duration: 0,5s;
 	color: red;
+	text-align: center;
 	text-shadow: black 0.1em 0.1em 0.1em;
 }
 .voice4 {
@@ -68,19 +75,25 @@ div.fixed {
 	font-style: normal;
 	font-weight: 600;
 	color: rgb(33, 224, 33);
-	text-align: right;
-	text-shadow: black 0.1em 0.1em 0.1em
+	text-align: center;
+	text-shadow: black 0.1em 0.1em 0.1em;
+}
+
+#aanduiding {
+	Font-family: brenner;
+	font-style: italic;
+	font-size: 15px;
+	font-weight: 400;
+	color: rgb(255, 255, 255);
+	text-shadow: black 0.1em 0.1em 0.1em;
+	text-align: center;
+
 }
 
 
-/* **********************************************
-The first paragraph, with extended timing for 
-	all siblings. Basically what it does is that
-	it shows the text after a delay, which 
-	corresponds with the time that the word is
-	spoken.
-You probably want to change the styling.
-********************************************** */
+/***********************************************
+Typografie alinea 1.
+*************************************************/
 .p0 span {
 	opacity: 1;
 	font-family: brenner slab;
@@ -163,14 +176,9 @@ You probably want to change the styling.
 }
 
 
-/* **********************************************
-Sounds.
-	You can style the whole body, or you can 
-	style anything within the body the moment
-	a sound starts.
-*********************************************  */
-
-/* The moment the class .sound1 is added to the body, the background is yellow */
+/************************************************
+Kleuren en bewegingen bij de geluiden.
+************************************************/
 
 .sound1 {
 	background: red;
@@ -178,13 +186,176 @@ Sounds.
 
 .sound2 {
 	background: none;
+	transition: 1s;
 }
 
 iframe {
 	transition: 1s;
 }
-/* The moment the class .sound1 is added to the body, the movie makes a turn */
+
 .sound1 iframe {
 	transform: rotateX(360deg)
+}
+
+.sound8 {
+    background-color: black;
+
+    animation: blinkingBackground 1s 42;
+    animation-delay: 1s;
+
+}
+
+.sound3 {
+    background-color: red;
+    transition: 1s;
+}
+
+.sound4 {
+    background-color: black;
+    transition: 1s;
+}
+
+.sound5 {
+    background-color: red;
+    transition: 1s;
+}
+
+.sound6 {
+    background-color: black;
+    transition: 1s;
+}
+
+
+.sound7 {
+    background-color: red;
+    transition: 1s;
+}
+
+.sound8 {
+    background-color: black;
+    transition: 1s;
+}
+
+.sound9 {
+    background-color: whitesmoke;
+    transition: 1s;
+}
+
+.sound10 {
+    background: none;
+    animation: none;
+}
+
+/***********************************************
+Keyframes
+*************************************************/
+
+@keyframes blinkingBackground {
+    0% {
+        background-color: #26581c;;
+    }
+
+    25% {
+        background-color: black;
+    }
+
+    50% {
+        background-color: #48aa35;
+    }
+
+    75% {
+        background-color: black;
+    }
+
+    100% {
+        background-color: #70ff53;;
+    }
+}
+
+@keyframes soundFade {
+    0% {opacity: 1;
+		filter: brightness(100%)}
+    75% {opacity: 1;
+		filter: brightness(100%)}
+    100% {opacity: 0;
+		filter: brightness(100%)}
+}
+
+@keyframes bye {
+    0% {
+        opacity: 1
+    }
+
+    75% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+
+
+/***********************************************
+Aanduidingen voor de geluiden.
+************************************************/
+
+.sound0 #aanduiding .nul {
+	animation: bye 8s;
+	margin-top: 40px;
+}
+
+.sound1 #aanduiding .drie {
+	animation: bye 2s;
+	margin-top: 40px;
+}
+
+.sound2 #aanduiding .twee {
+	animation: bye 2s;
+	margin-top: 40px;
+}
+
+.sound3 #aanduiding .vier {
+    animation: bye 1.5s;
+	margin-top: 40px;
+}
+
+
+.sound4 #aanduiding .vijf {
+    animation: bye 1.5s;
+	margin-top: 40px;
+}
+
+.sound5 #aanduiding .zes {
+    animation: bye 1.5s;
+	margin-top: 40px;
+}
+
+
+.sound6 #aanduiding .zeven {
+    animation: bye 1.5s;
+	margin-top: 40px;
+}
+
+.sound7 #aanduiding .acht {
+	animation: bye 1.3s;
+	margin-top: 40px;
+}
+
+.sound8 #aanduiding .negen {
+    animation: bye 1.5s;
+	margin-top: 40px;
+}
+
+.sound9 #aanduiding .tien {
+	animation: bye 42s;
+	margin-top: 70px;
+	
+}
+
+
+iframe {
+    margin: auto auto;
+	transition: 1s;
 }
 
