@@ -1,6 +1,8 @@
-## README Fien van Doesum
+README Fien van Doesum
+
 
 # Ontwerpkeuzes typografie
+
 
 ## Optie 2: Brenner
 
@@ -46,11 +48,11 @@ Darice gaf aan dat de aanduidingen van de geluiden er 100% in moesten zitten. An
 Doordat mijn groepje en ik hadden afgesproken om te focussen op ieder een ander onderdeel, konden we veel uit het laatste gesprek met Darice halen. Delano ging over de bewegingen van het beeld. Hier had hij zo veel mogelijk verschillende effecten ingestopt. Echter gaf Darice aan dat dit wel heel veel was en meer afleidend. Hierdoor ben ik toch gegaan voor minimalistische bewegingen zodat het meer is afgesteld op Darice. Verder wilde ik de video tijdens het laatste snerpende geluid steeds groter laten worden. Na 100 pogingen is het alsog niet gelukt. Achteraf zoomt de film zelf ook al in en was dit dubbel geweest. Dus misschien is het juist wel goed zo.
 
 
-### Ontwerpkeuzes achtergrondkleuren
+# Ontwerpkeuzes achtergrondkleuren
 
 Bij elk alarmerend geluid komt er een rode kleur als achtergrond. Dit is om gevaar en paniek aan te duiden. Op het moment dat het snerpende geluid begint komt er een knipperende gifgroen/zwarte achtergrond. Het is een irritant geluid waar ook een irritante kleur bij hoort. zodra zit geluid stopt is er een volledig witte achtergrond. Eindelijk verlossing, rust, stilte... 
 
 
-### Overige ontwerpkeuzes
+# Overige ontwerpkeuzes
 
 De positie van de video is in het midden zodat het rustiger kijkt.
