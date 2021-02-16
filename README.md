@@ -1,8 +1,8 @@
 README Fien van Doesum
 
-### Ontwerpkeuzes typpografie
+# Ontwerpkeuzes typpografie
 
-# Optie 2: Brenner
+### Optie 2: Brenner
 
 Ik heb voor optie 2 gekozen doordat ik de zekerheid wilde weten dat het overal klopt op elk en ieder scherm. Ook kon ik op deze manier spelen met de stylen per woord of letter. Ook heb ik elke soort een schaduw gegeven. Darice gaf aan dat dit fijner leest. Dit zie je niet meer terug doordat ik na de feedback van Vasilis heb besloten het in de zwarte balk van de video te zetten. Hierdoor heb ik geen problemen meer met de leesbaarheid van de teksten. Lees de verantwoording hieronder verder per categorie:
 
